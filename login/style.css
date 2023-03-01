@@ -1,3 +1,6 @@
+main{
+    font-family: 'Nunito', sans-serif;
+}
 .bg-gradient_roaz{
     background: rgb(98,217,223);
     background: linear-gradient(45deg, rgba(98,217,223,1) 0%, rgba(231,56,245,1) 100%);
