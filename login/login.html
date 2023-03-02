@@ -14,28 +14,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="codigo.js"></script>
 </head>
 
 <body>
     <main class="bg-gradient_roaz">
         <div class="row">
-            <div class="col-4"></div>
-            <div class="col-4 ps-5 pe-5 bg-light bordertop borderbutton divP">
+            <div class="col ps-5 pe-5 bg-light bordertop borderbutton divP">
                 <h4 class="text-center mt-3"><strong>Login</strong></h4>
                 <p class="mb-0"><strong>Username</strong></p>
-                <input class="outlinenone mb-4 bg-light" type="text" placeholder="Type your Username">
+                <input id="usuario" class="outlinenone mb-4 bg-light" type="text" placeholder="Type your Username">
                 <p class="mb-0">Password</p>
-                <input class="outlinenone mb-2 bg-light" type="Password" placeholder="Type your Password"><br>
+                <input id="password" class="outlinenone mb-2 bg-light" type="Password" placeholder="Type your Password"><br>
                 <div class="mb-4" style='text-align:right'>
                     <a href="">¿Olvidaste tu contraseña?</a>
                 </div>
-                <button class="btn first mb-5">¡Logeate!</button>
+                <button onclick="logear()" class="btn first mb-5">¡Logeate!</button>
                 <div class="text-center mb-5">
                     <p>¿No tienes cuenta?</p>
                     <button class="btn first">¡Registrate!</button>
                 </div>
+                <div style="position: absolute;left: 28%; top: 14%; z-index: 1;" class="blur">
+                    <img id="error">
+                </div>
             </div>
-            <div class="col-3"></div>
         </div>
     </main>
 </body>
