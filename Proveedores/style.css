@@ -1,0 +1,44 @@
+main{
+    border: 2px solid green;
+    height: 900px;;
+}
+
+header{
+    border: 2px solid rebeccapurple;
+    height: 15%;
+    width: 77.9%;
+    float: right;
+}
+
+#nav1{
+    border: 2px solid red;
+    height: 15%;
+    width: 22.1%;
+}
+#nav2{
+    border: 2px solid blue;
+    height: 84%;
+    width: 22.2%;
+    float:left;
+}
+
+#t1{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+#i1{
+    background-origin: padding-box;
+    border: 2px solid black;
+}
+
+#i2{
+    background-origin: padding-box;
+    border: 2px solid black;
+}
+
+#i3{
+    background-origin: padding-box;
+    border: 2px solid black;
+}
+
+
